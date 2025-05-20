@@ -1,4 +1,4 @@
-# 📝 Autodocs – Gerador de Documentos Automático com Google Sheets + Word + Python
+# 📝 Autodocs – Gerador de Documentos Automático
 
 **Autodocs** é uma automação desenvolvida em Python para gerar documentos Word (.docx) e Excel (.xlsx) a partir de dados preenchidos em formulários do Google Forms, armazenados no Google Sheets.
 
