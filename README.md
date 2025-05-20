@@ -123,7 +123,7 @@ pyinstaller --onefile --noconsole autodocs.py
 
 Desenvolvido por Lucas Costa
 
-🔗 linkedin.com/in/lucascosta
+🔗 [LinkedIn](https://www.linkedin.com/in/lucas-de-freitas-costa/)
 
 
 📄 Licença
