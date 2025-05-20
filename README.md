@@ -83,20 +83,25 @@ O script precisa de um arquivo de credenciais chamado `credenciais.json`, gerado
 ## ▶️ Como usar
 
 1. Instale as dependências:
+``` bash
+
 pip install gspread google-auth python-docx openpyxl tkinter
+```
 
 
-2. Coloque os modelos .docx e .xlsx dentro da pasta templates/
+3. Coloque os modelos .docx e .xlsx dentro da pasta templates/
 
 
-3. Execute o script principal:
+4. Execute o script principal:
+``` bash
+
 python autodocs.py
+```
+
+5. Uma interface será exibida para você selecionar os cadastros
 
 
-4. Uma interface será exibida para você selecionar os cadastros
-
-
-5. Clique em "Gerar Documentos" para processar
+6. Clique em "Gerar Documentos" para processar
 
 
 ---
@@ -115,8 +120,10 @@ Conta Google com permissão de edição nas planilhas
 
 Para gerar um executável standalone com o PyInstaller:
 
-pyinstaller --onefile --noconsole autodocs.py
+```bash
 
+pyinstaller --onefile --noconsole autodocs.py
+```
 -----------------------------------------------------
 
 ## 👨‍💻 Autor
