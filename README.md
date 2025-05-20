@@ -126,5 +126,6 @@ Desenvolvido por Lucas Costa
 🔗 [LinkedIn](https://www.linkedin.com/in/lucas-de-freitas-costa/)
 
 
-📄 Licença
+## 📄 Licença
+
 Este projeto é de uso privado ou interno, salvo autorização. Consulte o autor para fins comerciais.
