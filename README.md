@@ -83,9 +83,6 @@ O script precisa de um arquivo de credenciais chamado `credenciais.json`, gerado
 ## ▶️ Como usar
 
 1. Instale as dependências:
-
-```bash```
-
 pip install gspread google-auth python-docx openpyxl tkinter
 
 
@@ -93,9 +90,6 @@ pip install gspread google-auth python-docx openpyxl tkinter
 
 
 3. Execute o script principal:
-
-```bash```
-
 python autodocs.py
 
 
@@ -107,7 +101,7 @@ python autodocs.py
 
 ---
 
-##🛠 Requisitos
+## 🛠 Requisitos
 
 Python 3.8+
 
@@ -117,17 +111,15 @@ Conta Google com permissão de edição nas planilhas
 
 ---
 
-##📦 Build em .exe (opcional)
+## 📦 Build em .exe (opcional)
 
 Para gerar um executável standalone com o PyInstaller:
-
-```bash```
 
 pyinstaller --onefile --noconsole autodocs.py
 
 -----------------------------------------------------
 
-##👨‍💻 Autor
+## 👨‍💻 Autor
 
 Desenvolvido por Lucas Costa
 
