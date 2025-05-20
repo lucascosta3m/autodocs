@@ -50,12 +50,19 @@ Além disso, os nomes dos campos precisam **coincidir com os placeholders nos te
 ## 📁 Estrutura de diretórios
 
 autodocs/
+
 ├── autodocs.py # Arquivo principal
+
 ├── credenciais.json # Autenticação da API do Google
+
 ├── templates/ # Modelos .docx e .xlsx para PF e PJ
+
 │ ├── PF1.docx
+
 │ ├── PJ2.xlsx
+
 │ └── ...
+
 ├── docs_gerados/ # Pasta onde os documentos são salvos (gerada automaticamente)
 
 
@@ -78,42 +85,52 @@ O script precisa de um arquivo de credenciais chamado `credenciais.json`, gerado
 1. Instale as dependências:
 
 ```bash```
+
 pip install gspread google-auth python-docx openpyxl tkinter
 
+
 2. Coloque os modelos .docx e .xlsx dentro da pasta templates/
+
 
 3. Execute o script principal:
 
 ```bash```
+
 python autodocs.py
 
 
 4. Uma interface será exibida para você selecionar os cadastros
+
 
 5. Clique em "Gerar Documentos" para processar
 
 
 ---
 
-🛠 Requisitos
+##🛠 Requisitos
+
 Python 3.8+
 
 Conta Google com permissão de edição nas planilhas
 
-credenciais.json válido na raiz do projeto
+``credenciais.json`` válido na raiz do projeto
 
 ---
 
-📦 Build em .exe (opcional)
+##📦 Build em .exe (opcional)
+
 Para gerar um executável standalone com o PyInstaller:
 
 ```bash```
+
 pyinstaller --onefile --noconsole autodocs.py
 
 -----------------------------------------------------
 
-👨‍💻 Autor
+##👨‍💻 Autor
+
 Desenvolvido por Lucas Costa
+
 🔗 linkedin.com/in/lucascosta
 
 
